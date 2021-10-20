@@ -1,0 +1,45 @@
+{
+  "paths": [
+    {
+      "name": "/hello",
+      "lambdaFunction": "fullstackAWS",
+      "privacy": {
+        "protected": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ],
+        "unauth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/hello"
+    }
+  ],
+  "resourceName": "fullstackAwsRestAPI",
+  "apiName": "fullstackAwsRestAPI",
+  "functionArns": [
+    {
+      "lambdaFunction": "fullstackAWS"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 1,
+    "authRoleName": "amplify-fullstackaws-dev-201738-authRole",
+    "unAuthRoleName": "amplify-fullstackaws-dev-201738-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "fullstackAWS",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

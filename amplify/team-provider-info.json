@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fullstackaws-dev-201738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::727725835934:role/amplify-fullstackaws-dev-201738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::727725835934:role/amplify-fullstackaws-dev-201738-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-fullstackaws-dev-201738-deployment",
+      "UnauthRoleName": "amplify-fullstackaws-dev-201738-unauthRole",
+      "StackName": "amplify-fullstackaws-dev-201738",
+      "StackId": "arn:aws:cloudformation:us-east-2:727725835934:stack/amplify-fullstackaws-dev-201738/490dd560-3154-11ec-87cb-06c5cf500f92",
+      "AmplifyAppId": "d2kfc7ac3f3ogp"
+    },
+    "categories": {
+      "auth": {
+        "fullstackawscd835ee2": {}
+      },
+      "function": {
+        "fullstackAWS": {
+          "deploymentBucketName": "amplify-fullstackaws-dev-201738-deployment",
+          "s3Key": "amplify-builds/fullstackAWS-4749397236416b4c6977-build.zip"
+        }
+      }
+    }
+  }
+}
